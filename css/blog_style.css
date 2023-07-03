@@ -1,0 +1,32 @@
+.blog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1fr);
+    width: 85%;
+    margin: auto;
+}
+
+.blog_cards {
+    padding: 1vw;
+    border-radius: 7px;
+    margin: 1vw;
+    filter: brightness(0.7);
+    box-shadow: 0px 0px 4px black;
+}
+
+.blog_cards:hover {
+    border: 1px solid #ff5c35;
+    box-shadow: 0px 0px 12px black;
+    filter: brightness(1);
+}
+
+.blog_cards img {
+    width: 100%;
+    border-radius: 6px;
+    height: 55%;
+}
+
+.learn{
+    color: #ff5c35;
+    font-size: 1.2em;
+}

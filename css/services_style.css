@@ -1,0 +1,43 @@
+.container2 {
+    background-color: aliceblue;
+    padding-top: 3vw;
+}
+
+.card_box {
+    display: flex;
+}
+
+.small_box {
+    width: 100%;
+    background-color: white;
+    border: 1px solid white;
+    margin: 5px;
+    padding: 1.3vw;
+    border-radius: 6px;
+}
+
+.small_box:hover {
+    box-shadow: 1px 2px 7px rgb(99, 98, 98);
+}
+
+.number {
+    background-color: #ffe121;
+    border: 1px solid #ffe121;
+    padding: 1vw 0;
+    font-size: 3em;
+    color: blueviolet;
+    margin: 3px 0;
+    border-radius: 4px;
+    box-shadow: 1px 2px 7px black;
+    
+}
+
+#countries,#selection,#job_field{
+    font-weight: bold;
+}
+
+.explore {
+    color: #ff5c35;
+    text-decoration: underline;
+    font-size: 1.6em;
+}

@@ -1,0 +1,60 @@
+.founder {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 85vh;
+    width: 50%;
+    padding: 0 4vw;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+.founder::before {
+    background: url('../assets/bg1.avif') center center no-repeat;
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    z-index: -1;
+    filter: brightness(0.5);
+}
+
+.founder p{
+    margin: 1vw 0;
+}
+
+.founder div a{
+    text-decoration: none;
+    color: #ff5c35;
+    font-size: 1.5em;
+}
+
+.about_content {
+  width: 80%;
+  margin: 1.5vw auto;
+  grid-gap: 8vw;
+  /* border: 2px solid blue; */
+}
+
+.about_content div p{
+    font-size: 1.3em;
+    margin-bottom: 1vw;
+}
+
+.vision{
+    background-color: #f0c4f9;
+    padding: 1vw;
+    border-radius: 6px;
+    box-shadow: 1px 2px 12px black;
+    margin: 5px 0;
+}
+
+.vision p{
+    font-size: 1.4em;
+    padding: 1vw 2vw;
+}
